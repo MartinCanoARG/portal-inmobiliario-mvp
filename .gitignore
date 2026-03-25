@@ -1,0 +1,29 @@
+.git/
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.sqlite3
+backend/db.sqlite3
+*.pyc
+
+# Node / Next
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Environment files
+.env
+.env.*
+!.env.example
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
